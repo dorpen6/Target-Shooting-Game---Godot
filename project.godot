@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Target Shooting Game"
+run/main_scene="uid://puu14knobb1x"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://Asset/icon.svg"
 
