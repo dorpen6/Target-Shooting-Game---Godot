@@ -1,4 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://puu14knobb1x"]
+[gd_scene load_steps=6 format=3 uid="uid://puu14knobb1x"]
+
+[ext_resource type="Script" uid="uid://w4qrc1rgg3lx" path="res://Script/camera_3d.gd" id="1_01fhm"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_4nrkc"]
 
@@ -26,3 +28,4 @@ mesh = SubResource("BoxMesh_4nrkc")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.984808, 0.173648, 0, -0.173648, 0.984808, 0, 2, 5)
+script = ExtResource("1_01fhm")
