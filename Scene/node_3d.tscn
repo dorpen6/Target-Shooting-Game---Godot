@@ -1,8 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://puu14knobb1x"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_4nrkc"]
-sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
-ground_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
 
 [sub_resource type="Sky" id="Sky_01fhm"]
 sky_material = SubResource("ProceduralSkyMaterial_4nrkc")
@@ -10,8 +8,6 @@ sky_material = SubResource("ProceduralSkyMaterial_4nrkc")
 [sub_resource type="Environment" id="Environment_pn03a"]
 background_mode = 2
 sky = SubResource("Sky_01fhm")
-tonemap_mode = 2
-glow_enabled = true
 
 [sub_resource type="BoxMesh" id="BoxMesh_4nrkc"]
 
